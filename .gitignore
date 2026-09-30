@@ -1,0 +1,22 @@
+# Derlenmis ikili dosyalar ve nesne dosyalari
+*.o
+*.obj
+*.so
+*.a
+*.out
+
+# Vigil'in test/olcum calistirmasi sonucu (run_all.sh MODE=quick|full ile uretilir)
+results/
+
+# Elle derlenen ornek/arac/test ikilileri (kaynaksiz, isimle eslesen dosyalar)
+/quickstart
+/profiler_decode
+/odirect_shim.so
+*.bin
+!examples/*.bin
+
+# Editor / isletim sistemi
+.vscode/
+.idea/
+*.swp
+.DS_Store
